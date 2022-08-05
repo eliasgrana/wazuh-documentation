@@ -122,7 +122,7 @@ Check the following log files:
 
       .. code-block:: console
 
-          # cat /var/log/wazuh-indexer/wazuh-cluster.log | grep -i -E "error|warn"
+          # cat /var/log/wazuh-indexer/wazuh-indexer-cluster.log | grep -i -E "error|warn"
 
       - Wazuh manager:
 
